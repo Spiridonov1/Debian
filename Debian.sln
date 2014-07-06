@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debian", "Debian\Debian.csproj", "{22CBAD65-4A0E-4865-AEFB-97D69CC08158}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Packages", "Packages.mdproj", "{2F9DD89A-E568-4BF3-9919-D6017816585B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22CBAD65-4A0E-4865-AEFB-97D69CC08158}.Debug|x86.ActiveCfg = Debug|x86
+		{22CBAD65-4A0E-4865-AEFB-97D69CC08158}.Debug|x86.Build.0 = Debug|x86
+		{22CBAD65-4A0E-4865-AEFB-97D69CC08158}.Release|x86.ActiveCfg = Release|x86
+		{22CBAD65-4A0E-4865-AEFB-97D69CC08158}.Release|x86.Build.0 = Release|x86
+		{2F9DD89A-E568-4BF3-9919-D6017816585B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2F9DD89A-E568-4BF3-9919-D6017816585B}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Debian\Debian.csproj
+	EndGlobalSection
+EndGlobal
