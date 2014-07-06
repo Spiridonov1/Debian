@@ -8,7 +8,7 @@
 
 PREFIX="/usr/local"
 
-PROJECTNAME="MyProject"
+PROJECTNAME="Debian"
 
 PROJECTNAME_LC="${PROJECTNAME,,}"
 
