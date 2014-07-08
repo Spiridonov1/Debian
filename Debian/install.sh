@@ -26,14 +26,10 @@ cp -r -f "." "${PREFIX}/lib/${PROJECTNAME_LC}"
 
 # make symlink to start script in prefix/bin
 
-ln -s "${PREFIX}/lib/${PROJECTNAME_LC}/run.sh" "${PREFIX}/
-
-bin/${PROJECTNAME_LC}"
+ln -s "${PREFIX}/lib/${PROJECTNAME_LC}/run.sh" "${PREFIX}/bin/${PROJECTNAME_LC}"
 
 # install desktop file
 
-cp -r -f "${PROJECTNAME_LC}.desktop" "${PREFIX}/share/
-
-applications"
+cp -r -f "${PROJECTNAME_LC}.desktop" "${PREFIX}/share/applications"
 
 echo "Installation of ${PROJECTNAME} complete."
